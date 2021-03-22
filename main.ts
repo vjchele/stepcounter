@@ -1,5 +1,7 @@
 /**
- * This is a basic step counter
+ * This is a basic step counter using microbit.
+ * 
+ * This step counter is not very accurate as it relies on 'On Shake' event only.
  */
 input.onGesture(Gesture.Shake, function () {
     counter += 1
